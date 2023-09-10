@@ -58,3 +58,30 @@ body {
   padding: 20px;
   text-align: center;
 }
+
+h4{
+  color : green;
+}
+span {
+  position: absolute;
+
+}
+
+.prev-btn{ 
+  margin: 20px;
+  background-color:lightgray;
+  padding: 3px;
+
+}
+
+.next-btn{ 
+  margin: 20px;
+  background-color: lightgray;
+  padding: 3px;
+
+}
+
+h2{
+color: lightblue;
+
+}
