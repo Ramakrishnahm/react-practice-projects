@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.container {
+  margin-top: 50px;
+  background-color: white;
+  margin: 10px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+}
