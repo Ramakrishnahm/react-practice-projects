@@ -4,7 +4,7 @@ import "./App.css";
 import { FaChevronLeft, FaChevronRight, FaQuoteRight } from "react-icons/fa";
 
 const App = () => {
-  const [position, setPosition] = useState(0);
+  const [position] = useState(0);
   const { name, job, image, text } = people[position];
 
   const checkNumber = (number) => {
@@ -35,9 +35,7 @@ const App = () => {
     <article className="container">
       <h1 style={{ color: "gray" }}>Fectch Data from data.js</h1>
       <div>
-        {" "}
         <span>
-          {" "}
           <FaQuoteRight />
         </span>
         <img src={image} className="img" />
